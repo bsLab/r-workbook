@@ -6,4 +6,4 @@ R is a widely used programming langiage for numerical and statistical data proce
 
 R+ has some syntax extensions (e.g., short form of lists { } and vectors [ ]), some R functions are restricted, some are extended compared with the original versions.
 
-R+ parses program text into an intermediate AST, which is directly compiled to a function call graph. The function graph is executed in a sandbox environment. The R iterative performenace is about 5 times faster than native Python and about 5 times slower than native R.
+R+ parses program text into an intermediate AST, which is directly compiled on-the-fly to a function call graph. The function graph is executed in a sandbox environment. The R iterative performenace is about 5 times faster than native Python and about 5 times slower than native R.
